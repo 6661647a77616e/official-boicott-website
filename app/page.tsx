@@ -15,10 +15,18 @@ const HomePage = () => {
         <div></div>
       </header>
       <section className="relative text-center h-screen bg-lightBeige">
-        <iframe
+      <video
+      src="vids.mp4"
+      className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none "
+      autoPlay
+      loop
+         
+    />
+  
+        {/* <iframe
           src="https://www.youtube.com/watch?v=-8SnAJYICU0&list=PL5B7QzKgckD1e6Atw6Ji7KZbVb5TZv0JZ"
           className="absolute top-0 left-0 w-full h-full opacity-50 pointer-events-none"
-        ></iframe>
+        ></iframe> */}
         <div className="relative flex flex-col justify-center items-center h-full">
           <h1 className="font-bold text-[100px] text-mossGreen">Boicott</h1>
           <h2 className="text-gray-600 font-semibold text-2xl">| A mobile application empowering consumers to make informed and responsible decisions |</h2>
@@ -28,19 +36,32 @@ const HomePage = () => {
 
       {/* feature section */}
       <section id="features" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center h-screen bg-mossGreen text-white px-20">
-        <h1 className="col-span-2 text-4xl font-bold text-center">Features</h1>
-        <img src="/images/feature1.png" alt="feature1" className="w-48 h-48 mx-auto" />
-        <div>
-          <h2 className="text-2xl font-bold">Product Barcode Scanner</h2>
-          <p className="text-center md:text-left w-2/3 mt-5">Easily scan product barcodes to access detailed information, including ingredients, manufacturing practices, and ethical ratings. Make quick, informed decisions about the products you choose to support.</p>
-        </div>
-        <div>
-          <h2 className="text-2xl font-bold">Retrieval Augmented Generation (RAG)-powered Chatbot</h2>
-          <p className="text-center md:text-left mt-5 w-2/3">Leverage the power of Retrieval-Augmented Generation (RAG) to interact with an intelligent chatbot that delivers accurate, context-aware responses by combining real-time data retrieval with advanced natural language generation. Perfect for personalized support and dynamic information access.</p>
-        </div>
-        <img src="/images/feature2.png" alt="feature2" className="w-48 h-48 mx-auto" />
-      </section>
-
+  <h1 className="col-span-2 text-4xl font-bold text-center">Features</h1>
+  {/* <img src="/1.png" alt="feature1" className="w-56 h-56 mx-auto" /> */}
+  <video
+            src="vids3.mp4"
+            className="w-3/4 h-3/4 opacity-100 pointer-events-none"
+            autoPlay
+            loop
+            muted
+          />
+  <div>
+    <h2 className="text-2xl font-bold">Product Barcode Scanner</h2>
+    <p className="text-center md:text-left w-2/3 mt-5">Easily scan product barcodes to access detailed information, including ingredients, manufacturing practices, and ethical ratings. Make quick, informed decisions about the products you choose to support.</p>
+  </div>
+  <div>
+    <h2 className="text-2xl font-bold">Retrieval Augmented Generation (RAG)-powered Chatbot</h2>
+    <p className="text-center md:text-left mt-5 w-2/3">Leverage the power of Retrieval-Augmented Generation (RAG) to interact with an intelligent chatbot that delivers accurate, context-aware responses by combining real-time data retrieval with advanced natural language generation. Perfect for personalized support and dynamic information access.</p>
+  </div>
+  {/* <img src="/2.png" alt="feature2" className="w-56 h-56 mx-auto" /> */}
+  <video
+            src="vids4.mp4"
+            className="w-3/4 h-3/4 opacity-100 pointer-events-none"
+            autoPlay
+            loop
+            muted
+          />
+</section>
       {/* total serial number stored section */}
       <section>
         <div className="bg-gray-800 text-white text-center py-12">
@@ -57,10 +78,17 @@ const HomePage = () => {
       <section id="video" className="text-center bg-lightBeige py-12">
         <h2 className="text-4xl font-semibold">Video Showcase</h2>
         <div id="video" className="h-screen flex justify-center items-center">
-          <iframe
+          {/* <iframe
             src="https://www.youtube.com/watch?v=-8SnAJYICU0&list=PL5B7QzKgckD1e6Atw6Ji7KZbVb5TZv0JZ"
             className="w-3/4 h-3/4"
-          ></iframe>
+          ></iframe> */}
+             <video
+            src="vids2.mkv"
+            className="w-3/4 h-3/4 opacity-100 pointer-events-none"
+            autoPlay
+            loop
+            muted
+          />
         </div>
       </section>
     </main>
