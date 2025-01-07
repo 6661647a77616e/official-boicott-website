@@ -20,7 +20,7 @@ const HomePage = () => {
       className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none "
       autoPlay
       loop
-         
+      muted
     />
   
         {/* <iframe
