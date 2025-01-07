@@ -9,6 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        lightBeige : "#F5F5DC",
+        mossGreen : "#8A9A5B",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
