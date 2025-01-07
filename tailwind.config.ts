@@ -10,8 +10,7 @@ export default {
     extend: {
       colors: {
         lightBeige : "#F5F5DC",
-        mossGreen : "#8A9A5B",
-        background: "var(--background)",
+        mossGreen: "#7A8A4B",        background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
